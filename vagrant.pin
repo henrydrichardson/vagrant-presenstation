@@ -1,0 +1,57 @@
+# the 0th "slide" provides default styling for the presentation
+[center]             # position of text
+[vagrant1.jpg]       # default slide background
+[font=Sans 50px]
+--[font=Sans 1000px] # override background and text position
+
+An Intro to Vagrant
+
+-------  [font=Sans 100px] # lines starting with hyphens separate slides
+
+What is Vagrant? 
+
+-------
+
+• Command line tool
+• Automates VM creation with
+    * VirtualBox
+    * VMWare
+    * Hyper-V
+• Integrates well with configuration management tools
+    * SaltStack
+    * Ansible
+    * Chef
+    * Puppet
+• Runs on Linux, Windows, MacOS
+
+------[font=Sans 100px]
+
+
+Why use Vagrant?
+------
+
+ • Create new VMs quickly and easily
+    * Only one command! vagrant up
+ • Keep the number of VMs under control
+ • Reproducability
+ • Identical environment in development and production
+ • Portability
+    * No more 4GB .ova files
+    * git clone and vagrant up
+
+------[font=Sans 100px] 
+How do I get it!?
+
+------
+1. You'll need Virtualbox! 
+2. Install the software from VagrantUp.com
+3. Get a Vagrant Box!
+
+------[font=Sans 100px] 
+What is a Vagrant Box? 
+-------
+• Its a previously built vagrant virtual machine image!
+
+• Available in a ton of platforms (Linux, Windows, Mac, BSD?)
+
+• <b> AND you can create one! </b>
