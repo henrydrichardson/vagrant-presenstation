@@ -12,7 +12,7 @@ What is Vagrant?
 
 -------
 
-• Command line tool
+• Built in Ruby
 • Automates VM creation with
     * VirtualBox
     * VMWare
@@ -43,7 +43,7 @@ Why use Vagrant?
 How do I get it!?
 
 ------
-1. You'll need Virtualbox! 
+1. You'll need Virtualbox!
 2. Install the software from VagrantUp.com
 3. Get a Vagrant Box!
 
@@ -52,6 +52,7 @@ What is a Vagrant Box?
 -------
 • Its a previously built vagrant virtual machine image!
 
-• Available in a ton of platforms (Linux, Windows, Mac, BSD?)
+• Available in a ton of platforms (Linux, Windows, Mac, BSD)
 
 • <b> AND you can create one! </b>
+
